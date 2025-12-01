@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandra Ilieva | Personal Brand & Leadership Coach</title>
+    <meta name="description" content="Помагам на амбициозни жени да изградат 6 & 7-цифрен личен бренд без да го изгубат животот.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --dark: #0f0f0f;
+            --light: #fafafa;
+            --gray: #333;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--light);
+            color: var(--gray);
+            line-height: 1.7;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header {
+            height: 100vh;
+            min-height: 650px;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover no-repeat;
+            color: white;
+            display: center center;
+            display: flex;
+            align-items: center;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.4rem;
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--gold);
+            color: black;
+            padding: 16px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: white; transform: scale(1.05); }
+
+        /* Sections */
+        section { padding: 100px 0; }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--dark);
+        }
+        .about img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .card h3 { font-size: 1.6rem; margin-bottom: 1rem; }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        footer a { color: var(--gold); text-decoration: none; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 3rem; }
+            .hero p { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container hero" style="text-align:center;">
+            <h1>Билјана Лазарова</h1>
+            <p>Помагам на амбициозни жени да изградат 6 & 7-цифрен личен бренд<br>без да го изгубат животот и семејството.</p>
+            <a href="#contact" class="btn">Работи со мене 1:1 (само 3 места месечно)</a>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container grid" style="align-items:center;">
+            <div>
+                <h2>За мене</h2>
+                <p>За 18 месеци поминав од развод и плата од 1.200 € → 50.000+ € месечно со личен бренд и онлајн бизнис.</p>
+                <p>Денес сум ментор на жени кои сакаат да бидат слободни, богати и исполнети – истовремено.</p>
+                <p>Соработував со клиенти од 15 земји и помогнав да заработат преку 3.000.000 € заедно.</p>
+                <br>
+                <a href="#contact" class="btn">Дознај како можам да ти помогнам</a>
+            </div>
+            <div style="text-align:center;">
+                <!-- СТАВИ СВОЈА СЛИКА ТУКА (име: biljana.jpg) -->
+                <img src="biljana.jpg" alt="Билјана Лазарова">
+            </div>
+        </div>
+    </section>
+
+    <section style="background:#f8f8f8;">
+        <div class="container">
+            <h2>Што добиваат моите клиентки</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>6-цифрен личен бренд</h3>
+                    <p>LinkedIn & Instagram стратегија што носи клиенти на автопилот</p>
+                </div>
+                <div class="card">
+                    <h3>Понуда од 5–25k €</h3>
+                    <p>Премиум позиционирање и продажба без попусти</p>
+                </div>
+                <div class="card">
+                    <h3>Слобода</h3>
+                    <p>Работиш од каде сакаш, кога сакаш, со луѓе што ги сакаш</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container" style="text-align:center;">
+            <h2>Само 3 места месечно</h2>
+            <p style="font-size:1.4rem; max-width:700px; margin:0 auto 3rem;">
+                Ако си спремна 2026 да ти биде година на 6-цифрен бизнис, закажи 15-минутен повик.<br>
+                Ќе видиме дали се вклопуваме.
+            </p>
+            <a href="https://calendly.com/biljana88" class="btn" style="font-size:1.3rem; padding:20px 50px;">
+                Закажи повик сега
+            </a>
+            <p style="margin-top:30px; color:#777;">
+                или пиши ми директно на Instagram 
+                <a href="https://instagram.com/bibe.trajkovska">@bibe.trajkovska</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Билјана Лазарова • Сите права задржани • Направено со љубов и планинарски дух ❤️</p>
+        </div>
+    </footer>
+
+</body>
+</html>

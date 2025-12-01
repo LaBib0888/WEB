@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksandra Ilieva | Personal Brand & Leadership Coach</title>
+    <title>Biljana Lazarova | Personal Brand & Leadership Coach </title>
+    <logo> LaBib88 </title>	
     <meta name="description" content="Помагам на амбициозни жени да изградат 6 & 7-цифрен личен бренд без да го изгубат животот.">
     
     <!-- Google Fonts -->
@@ -125,6 +126,7 @@
             <div style="text-align:center;">
                 <!-- СТАВИ СВОЈА СЛИКА ТУКА (име: biljana.jpg) -->
                 <img src="biljana.jpg" alt="Билјана Лазарова">
+		
             </div>
         </div>
     </section>
@@ -172,5 +174,17 @@
         </div>
     </footer>
 
+	<script>
+function setLang(lang) {
+    document.querySelectorAll('[data-mk]').forEach(el => {
+        el.textContent = lang === 'mk' ? el.dataset.mk : el.dataset.en;
+    });
+    document.documentElement.lang = lang;
+    document.getElementById('mk').classList.toggle('active', lang === 'mk');
+    document.getElementById('en').classList.toggle('active', lang === 'en');
+}
+// Default Macedonian
+setLang('mk');
+</script>
 </body>
 </html>

@@ -106,7 +106,7 @@
 
     <header>
         <div class="container hero" style="text-align:center;">
-            <h1>Александра Илиева</h1>
+            <h1>Билјана Лазарова</h1>
             <p>Помагам на амбициозни жени да изградат 6 & 7-цифрен личен бренд<br>без да го изгубат животот и семејството.</p>
             <a href="#contact" class="btn">Работи со мене 1:1 (само 3 места месечно)</a>
         </div>
@@ -123,8 +123,8 @@
                 <a href="#contact" class="btn">Дознај како можам да ти помогнам</a>
             </div>
             <div style="text-align:center;">
-                <!-- СТАВИ СВОЈА СЛИКА ТУКА (име: aleksandra.jpg) -->
-                <img src="aleksandra.jpg" alt="Александра Илиева">
+                <!-- СТАВИ СВОЈА СЛИКА ТУКА (име: biljana.jpg) -->
+                <img src="biljana.jpg" alt="Билјана Лазарова">
             </div>
         </div>
     </section>
@@ -161,14 +161,14 @@
             </a>
             <p style="margin-top:30px; color:#777;">
                 или пиши ми директно на Instagram 
-                <a href="https://instagram.com/TVOJ-INSTAGRAM">@bibe.trajkovska</a>
+                <a href="https://instagram.com/bibe.trajkovska">@bibe.trajkovska</a>
             </p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Билјана Лазарова • Сите права задржани • Направено со љубов и моторџиски дух ❤️</p>
+            <p>&copy; 2025 Билјана Лазарова • Сите права задржани • Направено со љубов и планинарски дух ❤️</p>
         </div>
     </footer>
 
